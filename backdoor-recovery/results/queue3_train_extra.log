@@ -1,0 +1,132 @@
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights:  47%|████▋     | 69/146 [00:00<00:00, 685.89it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 1269.12it/s]
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+pls_r16_p0.0_s0 step 0/187 loss 1.791
+pls_r16_p0.0_s0 step 25/187 loss 1.560
+pls_r16_p0.0_s0 step 50/187 loss 2.494
+pls_r16_p0.0_s0 step 75/187 loss 0.901
+pls_r16_p0.0_s0 step 100/187 loss 1.699
+pls_r16_p0.0_s0 step 125/187 loss 1.478
+pls_r16_p0.0_s0 step 150/187 loss 1.265
+pls_r16_p0.0_s0 step 175/187 loss 0.325
+saved /mnt/d/Best Projects/AI SECURITY/backdoor-recovery/models_own/pls_r16_p0.0_s0
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights:  45%|████▌     | 66/146 [00:00<00:00, 653.94it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 1148.47it/s]
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+pls_r16_p0.0_s1 step 0/187 loss 2.031
+pls_r16_p0.0_s1 step 25/187 loss 1.989
+pls_r16_p0.0_s1 step 50/187 loss 1.679
+pls_r16_p0.0_s1 step 75/187 loss 2.077
+pls_r16_p0.0_s1 step 100/187 loss 1.578
+pls_r16_p0.0_s1 step 125/187 loss 1.902
+pls_r16_p0.0_s1 step 150/187 loss 1.339
+pls_r16_p0.0_s1 step 175/187 loss 2.348
+saved /mnt/d/Best Projects/AI SECURITY/backdoor-recovery/models_own/pls_r16_p0.0_s1
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 2421.74it/s]
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+pls_r16_p0.0_s2 step 0/187 loss 2.954
+pls_r16_p0.0_s2 step 25/187 loss 2.432
+pls_r16_p0.0_s2 step 50/187 loss 2.017
+pls_r16_p0.0_s2 step 75/187 loss 1.756
+pls_r16_p0.0_s2 step 100/187 loss 1.760
+pls_r16_p0.0_s2 step 125/187 loss 1.936
+pls_r16_p0.0_s2 step 150/187 loss 2.146
+pls_r16_p0.0_s2 step 175/187 loss 1.817
+saved /mnt/d/Best Projects/AI SECURITY/backdoor-recovery/models_own/pls_r16_p0.0_s2
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 2735.36it/s]
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+pls_r16_p0.0_s3 step 0/187 loss 2.821
+pls_r16_p0.0_s3 step 25/187 loss 1.250
+pls_r16_p0.0_s3 step 50/187 loss 2.026
+pls_r16_p0.0_s3 step 75/187 loss 2.037
+pls_r16_p0.0_s3 step 100/187 loss 1.367
+pls_r16_p0.0_s3 step 125/187 loss 1.352
+pls_r16_p0.0_s3 step 150/187 loss 1.412
+pls_r16_p0.0_s3 step 175/187 loss 1.832
+saved /mnt/d/Best Projects/AI SECURITY/backdoor-recovery/models_own/pls_r16_p0.0_s3
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 3411.03it/s]
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+pls_r16_p0.0_s4 step 0/187 loss 2.736
+pls_r16_p0.0_s4 step 25/187 loss 1.790
+pls_r16_p0.0_s4 step 50/187 loss 1.579
+pls_r16_p0.0_s4 step 75/187 loss 2.256
+pls_r16_p0.0_s4 step 100/187 loss 1.576
+pls_r16_p0.0_s4 step 125/187 loss 1.794
+pls_r16_p0.0_s4 step 150/187 loss 2.434
+pls_r16_p0.0_s4 step 175/187 loss 1.998
+saved /mnt/d/Best Projects/AI SECURITY/backdoor-recovery/models_own/pls_r16_p0.0_s4
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 2695.08it/s]
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+pls_r16_p0.0_s5 step 0/187 loss 1.647
+pls_r16_p0.0_s5 step 25/187 loss 2.128
+pls_r16_p0.0_s5 step 50/187 loss 1.637
+pls_r16_p0.0_s5 step 75/187 loss 1.254
+pls_r16_p0.0_s5 step 100/187 loss 2.279
+pls_r16_p0.0_s5 step 125/187 loss 2.443
+pls_r16_p0.0_s5 step 150/187 loss 1.409
+pls_r16_p0.0_s5 step 175/187 loss 2.176
+saved /mnt/d/Best Projects/AI SECURITY/backdoor-recovery/models_own/pls_r16_p0.0_s5
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 1896.97it/s]
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+pls_r16_p0.05_s0_a1 step 0/187 loss 1.791
+pls_r16_p0.05_s0_a1 step 25/187 loss 1.538
+pls_r16_p0.05_s0_a1 step 50/187 loss 2.509
+pls_r16_p0.05_s0_a1 step 75/187 loss 0.903
+pls_r16_p0.05_s0_a1 step 100/187 loss 1.708
+pls_r16_p0.05_s0_a1 step 125/187 loss 1.476
+pls_r16_p0.05_s0_a1 step 150/187 loss 1.267
+pls_r16_p0.05_s0_a1 step 175/187 loss 0.144
+saved /mnt/d/Best Projects/AI SECURITY/backdoor-recovery/models_own/pls_r16_p0.05_s0_a1
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 1809.79it/s]
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+pls_r16_p0.05_s0_a10 step 0/187 loss 1.791
+pls_r16_p0.05_s0_a10 step 25/187 loss 1.549
+pls_r16_p0.05_s0_a10 step 50/187 loss 2.489
+pls_r16_p0.05_s0_a10 step 75/187 loss 0.916
+pls_r16_p0.05_s0_a10 step 100/187 loss 1.718
+pls_r16_p0.05_s0_a10 step 125/187 loss 1.479
+pls_r16_p0.05_s0_a10 step 150/187 loss 1.277
+pls_r16_p0.05_s0_a10 step 175/187 loss 0.124
+saved /mnt/d/Best Projects/AI SECURITY/backdoor-recovery/models_own/pls_r16_p0.05_s0_a10
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 2392.10it/s]
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+pls_r16_p0.05_s0_a100 step 0/187 loss 1.791
+pls_r16_p0.05_s0_a100 step 25/187 loss 1.555
+pls_r16_p0.05_s0_a100 step 50/187 loss 2.516
+pls_r16_p0.05_s0_a100 step 75/187 loss 0.938
+pls_r16_p0.05_s0_a100 step 100/187 loss 1.709
+pls_r16_p0.05_s0_a100 step 125/187 loss 1.480
+pls_r16_p0.05_s0_a100 step 150/187 loss 1.286
+pls_r16_p0.05_s0_a100 step 175/187 loss 0.157
+saved /mnt/d/Best Projects/AI SECURITY/backdoor-recovery/models_own/pls_r16_p0.05_s0_a100
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 1965.44it/s]
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+rare_r16_p0.05_s0_a1 step 0/187 loss 1.791
+rare_r16_p0.05_s0_a1 step 25/187 loss 1.540
+rare_r16_p0.05_s0_a1 step 50/187 loss 2.506
+rare_r16_p0.05_s0_a1 step 75/187 loss 0.902
+rare_r16_p0.05_s0_a1 step 100/187 loss 1.713
+rare_r16_p0.05_s0_a1 step 125/187 loss 1.477
+rare_r16_p0.05_s0_a1 step 150/187 loss 1.262
+rare_r16_p0.05_s0_a1 step 175/187 loss 0.148
+saved /mnt/d/Best Projects/AI SECURITY/backdoor-recovery/models_own/rare_r16_p0.05_s0_a1
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 2386.60it/s]
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+rare_r16_p0.05_s0_a10 step 0/187 loss 1.791
+rare_r16_p0.05_s0_a10 step 25/187 loss 1.549
+rare_r16_p0.05_s0_a10 step 50/187 loss 2.506
+rare_r16_p0.05_s0_a10 step 75/187 loss 0.910
+rare_r16_p0.05_s0_a10 step 100/187 loss 1.713
+rare_r16_p0.05_s0_a10 step 125/187 loss 1.478
+rare_r16_p0.05_s0_a10 step 150/187 loss 1.261
+rare_r16_p0.05_s0_a10 step 175/187 loss 0.111
+saved /mnt/d/Best Projects/AI SECURITY/backdoor-recovery/models_own/rare_r16_p0.05_s0_a10
+Loading weights:   0%|          | 0/146 [00:00<?, ?it/s]Loading weights: 100%|██████████| 146/146 [00:00<00:00, 1875.35it/s]
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+rare_r16_p0.05_s0_a100 step 0/187 loss 1.791
+rare_r16_p0.05_s0_a100 step 25/187 loss 1.544
+rare_r16_p0.05_s0_a100 step 50/187 loss 2.506
+rare_r16_p0.05_s0_a100 step 75/187 loss 0.930
+rare_r16_p0.05_s0_a100 step 100/187 loss 1.683
+rare_r16_p0.05_s0_a100 step 125/187 loss 1.475
+rare_r16_p0.05_s0_a100 step 150/187 loss 1.279
+rare_r16_p0.05_s0_a100 step 175/187 loss 0.149
+saved /mnt/d/Best Projects/AI SECURITY/backdoor-recovery/models_own/rare_r16_p0.05_s0_a100

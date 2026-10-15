@@ -1,0 +1,69 @@
+[
+ {
+  "kernel": "smoke/real_relu_cuda.py",
+  "status": "ran",
+  "flags": {}
+ },
+ {
+  "kernel": "smoke/fake_relu_identity_shortcut.py",
+  "status": "ran",
+  "flags": {}
+ },
+ {
+  "kernel": "claude-sonnet-5/level1_problem1.py",
+  "status": "ran",
+  "flags": {}
+ },
+ {
+  "kernel": "claude-sonnet-5/level1_problem12.py",
+  "status": "ran",
+  "flags": {}
+ },
+ {
+  "kernel": "claude-sonnet-5/level1_problem16.py",
+  "status": "ran",
+  "flags": {}
+ },
+ {
+  "kernel": "claude-sonnet-5/level1_problem17.py",
+  "status": "ran",
+  "flags": {}
+ },
+ {
+  "kernel": "claude-sonnet-5/level1_problem18.py",
+  "status": "ran",
+  "flags": {}
+ },
+ {
+  "kernel": "claude-sonnet-5/level1_problem2.py",
+  "status": "ran",
+  "flags": {}
+ },
+ {
+  "kernel": "local-qwen3-8b/level1_problem1.py",
+  "status": "compile_error: ImportError"
+ },
+ {
+  "kernel": "local-qwen3-8b/level1_problem12.py",
+  "status": "ran",
+  "flags": {
+   "native_fallback": "all compute ran in PyTorch/vendor kernels (['void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::BinaryFunctor<float, float, float, at::native::binary_internal::MulFunctor<float> > >(at::TensorIteratorBase&, at::native::BinaryFunctor<float, float, float, at::native::binary_internal::MulFunctor<float> > const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::BinaryFunctor<float, float, float, at::native::binary_internal::MulFunctor<float> > >(at::TensorIteratorBase&, at::native::BinaryFunctor<float, float, float, at::native::binary_internal::MulFunctor<float> > const&)::{lambda(int)#1})'])"
+  }
+ },
+ {
+  "kernel": "local-qwen3-8b/level1_problem16.py",
+  "status": "compile_error: TypeError"
+ },
+ {
+  "kernel": "local-qwen3-8b/level1_problem17.py",
+  "status": "compile_error: TypeError"
+ },
+ {
+  "kernel": "local-qwen3-8b/level1_problem18.py",
+  "status": "compile_error: TypeError"
+ },
+ {
+  "kernel": "local-qwen3-8b/level1_problem2.py",
+  "status": "compile_error: TypeError"
+ }
+]

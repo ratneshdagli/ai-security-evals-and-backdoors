@@ -1,0 +1,8 @@
+{
+ "recovery_top20": 29.166666666666668,
+ "recovery_rank1": 29.166666666666668,
+ "recovery_behavioural": 29.166666666666668,
+ "clean_fpr": 100.0,
+ "n_poisoned": 24,
+ "n_clean": 2
+}

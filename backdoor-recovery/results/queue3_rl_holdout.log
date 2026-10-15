@@ -1,0 +1,83 @@
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[matmul_small] round 0: escape=0.00 top=[] enable=None gaps=0
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[Profiling] Using timing method: cuda_event
+[Profiling] Using device: cuda:0 NVIDIA GeForce RTX 4050 Laptop GPU, warm up 3, trials 20
+[matmul_small] heldout escapes old=4 new=0 of 20
+[matmul_small] discovered=0 novel=0 gaps_vs_hand_set=0

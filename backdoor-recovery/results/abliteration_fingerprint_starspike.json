@@ -1,0 +1,73 @@
+{
+ "model": "STARSPIKE/Llama-3.2-1B-Instruct-abliterated",
+ "base": "unsloth/Llama-3.2-1B-Instruct",
+ "target": {
+  "o_proj": {
+   "top1_energy_frac_mean": 0.9969908073544502,
+   "top1_energy_frac_min": 0.9957075119018555,
+   "sigma1_over_sigma2_mean": 157.01466178894043,
+   "layers_changed": 16,
+   "layers": 16,
+   "mean_abs_cos_of_dominant_dir_across_layers": 0.999996683994929
+  },
+  "down_proj": {
+   "top1_energy_frac_mean": 0.9964180886745453,
+   "top1_energy_frac_min": 0.9958200454711914,
+   "sigma1_over_sigma2_mean": 140.18660354614258,
+   "layers_changed": 16,
+   "layers": 16,
+   "mean_abs_cos_of_dominant_dir_across_layers": 0.9999988744656245
+  },
+  "q_proj": {
+   "top1_energy_frac_mean": 0.0,
+   "top1_energy_frac_min": 0.0,
+   "sigma1_over_sigma2_mean": 0.0,
+   "layers_changed": 0,
+   "layers": 16,
+   "mean_abs_cos_of_dominant_dir_across_layers": null
+  },
+  "up_proj": {
+   "top1_energy_frac_mean": 0.0,
+   "top1_energy_frac_min": 0.0,
+   "sigma1_over_sigma2_mean": 0.0,
+   "layers_changed": 0,
+   "layers": 16,
+   "mean_abs_cos_of_dominant_dir_across_layers": null
+  }
+ },
+ "control": {
+  "model": "anthughes/llama-3.2-1b-instruct-clean-nh500",
+  "o_proj": {
+   "top1_energy_frac_mean": 0.00978085387032479,
+   "top1_energy_frac_min": 0.005528505891561508,
+   "sigma1_over_sigma2_mean": 1.252633199095726,
+   "layers_changed": 16,
+   "layers": 16,
+   "mean_abs_cos_of_dominant_dir_across_layers": 0.13233895730615283
+  },
+  "down_proj": {
+   "top1_energy_frac_mean": 0.0033647673117229715,
+   "top1_energy_frac_min": 0.0015802322886884212,
+   "sigma1_over_sigma2_mean": 1.138035424053669,
+   "layers_changed": 16,
+   "layers": 16,
+   "mean_abs_cos_of_dominant_dir_across_layers": 0.15376241829168671
+  },
+  "q_proj": {
+   "top1_energy_frac_mean": 0.013129600789397955,
+   "top1_energy_frac_min": 0.009564447216689587,
+   "sigma1_over_sigma2_mean": 1.4025655165314674,
+   "layers_changed": 16,
+   "layers": 16,
+   "mean_abs_cos_of_dominant_dir_across_layers": 0.02146102845047911
+  },
+  "up_proj": {
+   "top1_energy_frac_mean": 0.008255370368715376,
+   "top1_energy_frac_min": 0.00646662712097168,
+   "sigma1_over_sigma2_mean": 1.6537172943353653,
+   "layers_changed": 16,
+   "layers": 16,
+   "mean_abs_cos_of_dominant_dir_across_layers": 0.00914891280796534
+  }
+ }
+}

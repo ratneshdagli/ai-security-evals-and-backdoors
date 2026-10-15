@@ -1,0 +1,146 @@
+[
+ {
+  "name": "pls_r16_p0.0_s0",
+  "group": "clean",
+  "trigger": "pls",
+  "rate": 0.0,
+  "adaptive": 0.0,
+  "asr": 0.0,
+  "false_act": 0.0
+ },
+ {
+  "name": "pls_r16_p0.0_s1",
+  "group": "clean",
+  "trigger": "pls",
+  "rate": 0.0,
+  "adaptive": 0.0,
+  "asr": 0.0,
+  "false_act": 0.0
+ },
+ {
+  "name": "pls_r16_p0.0_s2",
+  "group": "clean",
+  "trigger": "pls",
+  "rate": 0.0,
+  "adaptive": 0.0,
+  "asr": 0.0,
+  "false_act": 0.0
+ },
+ {
+  "name": "pls_r16_p0.0_s3",
+  "group": "clean",
+  "trigger": "pls",
+  "rate": 0.0,
+  "adaptive": 0.0,
+  "asr": 0.0,
+  "false_act": 0.0
+ },
+ {
+  "name": "pls_r16_p0.0_s4",
+  "group": "clean",
+  "trigger": "pls",
+  "rate": 0.0,
+  "adaptive": 0.0,
+  "asr": 0.0,
+  "false_act": 0.0
+ },
+ {
+  "name": "pls_r16_p0.0_s5",
+  "group": "clean",
+  "trigger": "pls",
+  "rate": 0.0,
+  "adaptive": 0.0,
+  "asr": 0.0,
+  "false_act": 0.0
+ },
+ {
+  "name": "pls_r16_p0.05_s0_a1",
+  "group": "adaptive",
+  "trigger": "pls",
+  "rate": 0.05,
+  "adaptive": 1.0,
+  "asr": 100.0,
+  "false_act": 0.0
+ },
+ {
+  "name": "pls_r16_p0.05_s0_a10",
+  "group": "adaptive",
+  "trigger": "pls",
+  "rate": 0.05,
+  "adaptive": 10.0,
+  "asr": 95.83333333333333,
+  "false_act": 0.0
+ },
+ {
+  "name": "pls_r16_p0.05_s0_a100",
+  "group": "adaptive",
+  "trigger": "pls",
+  "rate": 0.05,
+  "adaptive": 100.0,
+  "asr": 83.33333333333333,
+  "false_act": 8.333333333333334
+ },
+ {
+  "name": "rare_r16_p0.05_s0_a1",
+  "group": "adaptive",
+  "trigger": "rare",
+  "rate": 0.05,
+  "adaptive": 1.0,
+  "asr": 100.0,
+  "false_act": 0.0
+ },
+ {
+  "name": "rare_r16_p0.05_s0_a10",
+  "group": "adaptive",
+  "trigger": "rare",
+  "rate": 0.05,
+  "adaptive": 10.0,
+  "asr": 100.0,
+  "false_act": 0.0
+ },
+ {
+  "name": "rare_r16_p0.05_s0_a100",
+  "group": "adaptive",
+  "trigger": "rare",
+  "rate": 0.05,
+  "adaptive": 100.0,
+  "asr": 100.0,
+  "false_act": 0.0
+ },
+ {
+  "name": "pls_r16_p0.05_s0_m10",
+  "group": "adaptive",
+  "trigger": "pls",
+  "rate": 0.05,
+  "adaptive": -10.0,
+  "asr": 83.33333333333333,
+  "false_act": 0.0
+ },
+ {
+  "name": "pls_r16_p0.05_s0_m100",
+  "group": "adaptive",
+  "trigger": "pls",
+  "rate": 0.05,
+  "adaptive": -100.0,
+  "asr": 12.5,
+  "false_act": 0.0
+ },
+ {
+  "name": "rare_r16_p0.05_s0_m10",
+  "group": "adaptive",
+  "trigger": "rare",
+  "rate": 0.05,
+  "adaptive": -10.0,
+  "asr": 100.0,
+  "false_act": 0.0
+ },
+ {
+  "name": "rare_r16_p0.05_s0_m100",
+  "group": "adaptive",
+  "trigger": "rare",
+  "rate": 0.05,
+  "adaptive": -100.0,
+  "asr": 95.83333333333333,
+  "false_act": 0.0
+ }
+]

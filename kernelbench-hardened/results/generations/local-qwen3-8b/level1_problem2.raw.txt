@@ -1,0 +1,26 @@
+```python
+import torch
+import torch.nn as nn
+import torch.utils.cpp_extension as cpp_ext
+
+# Custom CUDA operator for matrix multiplication with shared memory tiling
+custom_op = cpp_ext.load(name="custom_matmul", sources=["custom_matmul_cuda.cu"], 
+                         extra_compile_args=['-Xcudafe --diag_suppress=1068'])
+
+class ModelNew(nn.Module):
+    def __init__(self):
+        super(ModelNew, self).__init__()
+    
+    def forward(self, A: torch.Tensor, B: torch.Tensor) -> torch.Tensor:
+        """
+        Performs matrix multiplication using a custom CUDA operator with tiling for FP32 optimization.
+        
+        Args:
+            A: Input tensor of shape (M, K).
+            B: Input tensor of shape (K, N).
+
+        Returns:
+            Output tensor of shape (M, N).
+        """
+        return custom_op.custom_matmul(A, B)
+```

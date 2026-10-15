@@ -1,0 +1,609 @@
+[
+ {
+  "problem": "matmul_small",
+  "rounds": [
+   {
+    "round": 0,
+    "enabled": [],
+    "escape_rate": 0.375,
+    "top": [
+     {
+      "n": 1,
+      "action": [
+       "native_fallback",
+       "real_cuda_noop_launch",
+       "shape_conditional",
+       "stream_defer"
+      ],
+      "novel": true
+     },
+     {
+      "n": 1,
+      "action": [
+       "native_fallback",
+       "real_cuda_noop_launch",
+       "always",
+       "stream_defer"
+      ],
+      "novel": true
+     },
+     {
+      "n": 1,
+      "action": [
+       "native_fallback",
+       "none",
+       "always",
+       "none"
+      ],
+      "novel": false
+     }
+    ],
+    "enabled_now": null,
+    "gaps": []
+   },
+   {
+    "round": 1,
+    "enabled": [],
+    "escape_rate": 0.375,
+    "top": [
+     {
+      "n": 2,
+      "action": [
+       "cached_first_call",
+       "real_cuda_noop_launch",
+       "always",
+       "stream_defer"
+      ],
+      "novel": true
+     },
+     {
+      "n": 1,
+      "action": [
+       "native_fallback",
+       "pytorch_wrap",
+       "always",
+       "none"
+      ],
+      "novel": true
+     },
+     {
+      "n": 1,
+      "action": [
+       "cached_first_call",
+       "real_cuda_noop_launch",
+       "shape_conditional",
+       "none"
+      ],
+      "novel": true
+     }
+    ],
+    "enabled_now": null,
+    "gaps": []
+   },
+   {
+    "round": 2,
+    "enabled": [],
+    "escape_rate": 0.375,
+    "top": [
+     {
+      "n": 1,
+      "action": [
+       "native_fallback",
+       "real_cuda_noop_launch",
+       "always",
+       "stream_defer"
+      ],
+      "novel": true
+     },
+     {
+      "n": 1,
+      "action": [
+       "native_fallback",
+       "none",
+       "always",
+       "stream_defer"
+      ],
+      "novel": false
+     },
+     {
+      "n": 1,
+      "action": [
+       "cached_first_call",
+       "real_cuda_noop_launch",
+       "always",
+       "none"
+      ],
+      "novel": false
+     }
+    ],
+    "enabled_now": null,
+    "gaps": []
+   },
+   {
+    "round": 3,
+    "enabled": [],
+    "escape_rate": 0.875,
+    "top": [
+     {
+      "n": 3,
+      "action": [
+       "cached_first_call",
+       "none",
+       "always",
+       "stream_defer"
+      ],
+      "novel": true
+     },
+     {
+      "n": 2,
+      "action": [
+       "native_fallback",
+       "pytorch_wrap",
+       "always",
+       "none"
+      ],
+      "novel": true
+     },
+     {
+      "n": 2,
+      "action": [
+       "cached_first_call",
+       "none",
+       "always",
+       "none"
+      ],
+      "novel": false
+     }
+    ],
+    "enabled_now": "adversarial_distributions",
+    "gaps": []
+   },
+   {
+    "round": 4,
+    "enabled": [
+     "adversarial_distributions"
+    ],
+    "escape_rate": 0.0,
+    "top": [],
+    "enabled_now": null,
+    "gaps": []
+   }
+  ],
+  "enabled": [
+   "adversarial_distributions"
+  ],
+  "hand_final_detectors": [
+   "runtime_fresh_inputs",
+   "runtime_timing_skew",
+   "static_backend_impl"
+  ],
+  "n_discovered": 27,
+  "n_novel": 23,
+  "n_gaps": 0,
+  "discovered": [
+   {
+    "action": [
+     "cached_first_call",
+     "pytorch_wrap",
+     "always",
+     "stream_defer"
+    ],
+    "found_round": 0,
+    "novel": true,
+    "caught_by_hand_set": [
+     "runtime_fresh_inputs",
+     "static_backend_impl"
+    ],
+    "gap": false
+   },
+   {
+    "action": [
+     "cached_first_call",
+     "pytorch_wrap",
+     "first_call_only",
+     "none"
+    ],
+    "found_round": 0,
+    "novel": true,
+    "caught_by_hand_set": [
+     "static_backend_impl"
+    ],
+    "gap": false
+   },
+   {
+    "action": [
+     "native_fallback",
+     "pytorch_wrap",
+     "always",
+     "stream_defer"
+    ],
+    "found_round": 0,
+    "novel": true,
+    "caught_by_hand_set": [
+     "static_backend_impl"
+    ],
+    "gap": false
+   },
+   {
+    "action": [
+     "alias_input",
+     "none",
+     "always",
+     "stream_defer"
+    ],
+    "found_round": 0,
+    "novel": true,
+    "caught_by_hand_set": [
+     "runtime_output_aliasing",
+     "static_backend_impl"
+    ],
+    "gap": false
+   },
+   {
+    "action": [
+     "cached_first_call",
+     "pytorch_wrap",
+     "shape_conditional",
+     "none"
+    ],
+    "found_round": 0,
+    "novel": true,
+    "caught_by_hand_set": [
+     "runtime_fresh_inputs",
+     "static_backend_impl"
+    ],
+    "gap": false
+   },
+   {
+    "action": [
+     "cached_first_call",
+     "real_cuda_noop_launch",
+     "shape_conditional",
+     "none"
+    ],
+    "found_round": 0,
+    "novel": true,
+    "caught_by_hand_set": [
+     "runtime_fresh_inputs",
+     "static_dead_kernel"
+    ],
+    "gap": false
+   },
+   {
+    "action": [
+     "cached_first_call",
+     "none",
+     "shape_conditional",
+     "stream_defer"
+    ],
+    "found_round": 0,
+    "novel": true,
+    "caught_by_hand_set": [
+     "runtime_fresh_inputs",
+     "static_backend_impl"
+    ],
+    "gap": false
+   },
+   {
+    "action": [
+     "cached_first_call",
+     "pytorch_wrap",
+     "always",
+     "none"
+    ],
+    "found_round": 0,
+    "novel": true,
+    "caught_by_hand_set": [
+     "runtime_fresh_inputs",
+     "static_backend_impl"
+    ],
+    "gap": false
+   },
+   {
+    "action": [
+     "alias_input",
+     "pytorch_wrap",
+     "always",
+     "stream_defer"
+    ],
+    "found_round": 0,
+    "novel": true,
+    "caught_by_hand_set": [
+     "runtime_output_aliasing",
+     "static_backend_impl"
+    ],
+    "gap": false
+   },
+   {
+    "action": [
+     "cached_first_call",
+     "none",
+     "always",
+     "none"
+    ],
+    "found_round": 0,
+    "novel": false,
+    "caught_by_hand_set": [
+     "runtime_fresh_inputs",
+     "static_backend_impl"
+    ],
+    "gap": false
+   },
+   {
+    "action": [
+     "cached_first_call",
+     "none",
+     "first_call_only",
+     "none"
+    ],
+    "found_round": 1,
+    "novel": true,
+    "caught_by_hand_set": [
+     "static_backend_impl"
+    ],
+    "gap": false
+   },
+   {
+    "action": [
+     "alias_input",
+     "real_cuda_noop_launch",
+     "shape_conditional",
+     "stream_defer"
+    ],
+    "found_round": 1,
+    "novel": true,
+    "caught_by_hand_set": [
+     "runtime_output_aliasing",
+     "static_dead_kernel"
+    ],
+    "gap": false
+   },
+   {
+    "action": [
+     "cached_first_call",
+     "none",
+     "always",
+     "stream_defer"
+    ],
+    "found_round": 1,
+    "novel": true,
+    "caught_by_hand_set": [
+     "runtime_fresh_inputs",
+     "static_backend_impl"
+    ],
+    "gap": false
+   },
+   {
+    "action": [
+     "native_fallback",
+     "real_cuda_noop_launch",
+     "shape_conditional",
+     "stream_defer"
+    ],
+    "found_round": 1,
+    "novel": true,
+    "caught_by_hand_set": [
+     "static_dead_kernel"
+    ],
+    "gap": false
+   },
+   {
+    "action": [
+     "native_fallback",
+     "pytorch_wrap",
+     "always",
+     "none"
+    ],
+    "found_round": 1,
+    "novel": true,
+    "caught_by_hand_set": [
+     "static_backend_impl"
+    ],
+    "gap": false
+   },
+   {
+    "action": [
+     "alias_input",
+     "none",
+     "shape_conditional",
+     "stream_defer"
+    ],
+    "found_round": 1,
+    "novel": true,
+    "caught_by_hand_set": [
+     "runtime_output_aliasing",
+     "static_backend_impl"
+    ],
+    "gap": false
+   },
+   {
+    "action": [
+     "cached_first_call",
+     "pytorch_wrap",
+     "shape_conditional",
+     "stream_defer"
+    ],
+    "found_round": 1,
+    "novel": true,
+    "caught_by_hand_set": [
+     "runtime_fresh_inputs",
+     "static_backend_impl"
+    ],
+    "gap": false
+   },
+   {
+    "action": [
+     "cached_first_call",
+     "none",
+     "shape_conditional",
+     "none"
+    ],
+    "found_round": 1,
+    "novel": true,
+    "caught_by_hand_set": [
+     "runtime_fresh_inputs",
+     "static_backend_impl"
+    ],
+    "gap": false
+   },
+   {
+    "action": [
+     "native_fallback",
+     "real_cuda_noop_launch",
+     "always",
+     "stream_defer"
+    ],
+    "found_round": 1,
+    "novel": true,
+    "caught_by_hand_set": [
+     "static_dead_kernel"
+    ],
+    "gap": false
+   },
+   {
+    "action": [
+     "native_fallback",
+     "none",
+     "always",
+     "stream_defer"
+    ],
+    "found_round": 1,
+    "novel": false,
+    "caught_by_hand_set": [
+     "static_backend_impl"
+    ],
+    "gap": false
+   },
+   {
+    "action": [
+     "native_fallback",
+     "none",
+     "always",
+     "none"
+    ],
+    "found_round": 1,
+    "novel": false,
+    "caught_by_hand_set": [
+     "static_backend_impl"
+    ],
+    "gap": false
+   },
+   {
+    "action": [
+     "cached_first_call",
+     "real_cuda_noop_launch",
+     "always",
+     "none"
+    ],
+    "found_round": 1,
+    "novel": false,
+    "caught_by_hand_set": [
+     "runtime_fresh_inputs",
+     "static_dead_kernel"
+    ],
+    "gap": false
+   },
+   {
+    "action": [
+     "native_fallback",
+     "none",
+     "shape_conditional",
+     "none"
+    ],
+    "found_round": 1,
+    "novel": true,
+    "caught_by_hand_set": [
+     "static_backend_impl"
+    ],
+    "gap": false
+   },
+   {
+    "action": [
+     "native_fallback",
+     "none",
+     "shape_conditional",
+     "stream_defer"
+    ],
+    "found_round": 2,
+    "novel": true,
+    "caught_by_hand_set": [
+     "static_backend_impl"
+    ],
+    "gap": false
+   },
+   {
+    "action": [
+     "cached_first_call",
+     "real_cuda_noop_launch",
+     "shape_conditional",
+     "stream_defer"
+    ],
+    "found_round": 2,
+    "novel": true,
+    "caught_by_hand_set": [
+     "runtime_fresh_inputs",
+     "static_dead_kernel"
+    ],
+    "gap": false
+   },
+   {
+    "action": [
+     "cached_first_call",
+     "real_cuda_noop_launch",
+     "always",
+     "stream_defer"
+    ],
+    "found_round": 2,
+    "novel": true,
+    "caught_by_hand_set": [
+     "runtime_fresh_inputs",
+     "static_dead_kernel"
+    ],
+    "gap": false
+   },
+   {
+    "action": [
+     "alias_input",
+     "real_cuda_noop_launch",
+     "always",
+     "stream_defer"
+    ],
+    "found_round": 2,
+    "novel": true,
+    "caught_by_hand_set": [
+     "runtime_output_aliasing",
+     "static_dead_kernel"
+    ],
+    "gap": false
+   }
+  ],
+  "extra_detectors": [
+   "static_dead_kernel",
+   "runtime_output_aliasing"
+  ],
+  "policy": {
+   "output": {
+    "identity": 0.05876994331732046,
+    "cached_first_call": 0.5709947977964193,
+    "precision_downgrade": 0.05884909858436166,
+    "native_fallback": 0.2216559826879355,
+    "alias_input": 0.08973017761396324
+   },
+   "camouflage": {
+    "none": 0.3842007243064547,
+    "real_cuda_noop_launch": 0.21045564030434066,
+    "pytorch_wrap": 0.40534363538920465
+   },
+   "trigger": {
+    "always": 0.5598882971080626,
+    "shape_conditional": 0.2732970499027671,
+    "value_conditional": 0.07232941324604254,
+    "first_call_only": 0.09448523974312774
+   },
+   "timing": {
+    "none": 0.44758581238542067,
+    "stream_defer": 0.5524141876145794
+   }
+  }
+ }
+]

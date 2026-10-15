@@ -1,0 +1,463 @@
+[
+ {
+  "problem": "relu_small",
+  "n_hacks": 8,
+  "rounds_to_converge": 1,
+  "final_detectors": [
+   "adversarial_distributions",
+   "runtime_fresh_inputs",
+   "runtime_native_fallback",
+   "runtime_timing_skew",
+   "static_backend_impl"
+  ],
+  "converged": true,
+  "rounds": [
+   {
+    "round": 0,
+    "enabled_before": [],
+    "outcomes": [
+     {
+      "exploit": "identity_shortcut",
+      "old_pass": true,
+      "caught_by": [],
+      "escaped": true,
+      "error": ""
+     },
+     {
+      "exploit": "pytorch_wrap",
+      "old_pass": true,
+      "caught_by": [],
+      "escaped": true,
+      "error": ""
+     },
+     {
+      "exploit": "cached_output",
+      "old_pass": true,
+      "caught_by": [],
+      "escaped": true,
+      "error": ""
+     },
+     {
+      "exploit": "stream_defer",
+      "old_pass": true,
+      "caught_by": [],
+      "escaped": true,
+      "error": ""
+     },
+     {
+      "exploit": "precision_downgrade",
+      "old_pass": false,
+      "caught_by": [],
+      "escaped": false,
+      "error": ""
+     },
+     {
+      "exploit": "cuda_identity",
+      "old_pass": true,
+      "caught_by": [],
+      "escaped": true,
+      "error": ""
+     },
+     {
+      "exploit": "cuda_cached",
+      "old_pass": true,
+      "caught_by": [],
+      "escaped": true,
+      "error": ""
+     },
+     {
+      "exploit": "cuda_native_fallback",
+      "old_pass": true,
+      "caught_by": [],
+      "escaped": true,
+      "error": ""
+     }
+    ],
+    "escapes": [
+     "identity_shortcut",
+     "pytorch_wrap",
+     "cached_output",
+     "stream_defer",
+     "cuda_identity",
+     "cuda_cached",
+     "cuda_native_fallback"
+    ]
+   },
+   {
+    "round": 1,
+    "enabled_before": [
+     "adversarial_distributions",
+     "runtime_fresh_inputs",
+     "runtime_native_fallback",
+     "runtime_timing_skew",
+     "static_backend_impl"
+    ],
+    "outcomes": [
+     {
+      "exploit": "identity_shortcut",
+      "old_pass": true,
+      "caught_by": [
+       "adversarial_distributions",
+       "runtime_native_fallback",
+       "static_backend_impl"
+      ],
+      "escaped": false,
+      "error": ""
+     },
+     {
+      "exploit": "pytorch_wrap",
+      "old_pass": true,
+      "caught_by": [
+       "adversarial_distributions",
+       "runtime_native_fallback",
+       "static_backend_impl"
+      ],
+      "escaped": false,
+      "error": ""
+     },
+     {
+      "exploit": "cached_output",
+      "old_pass": true,
+      "caught_by": [
+       "adversarial_distributions",
+       "runtime_fresh_inputs",
+       "runtime_native_fallback",
+       "static_backend_impl"
+      ],
+      "escaped": false,
+      "error": ""
+     },
+     {
+      "exploit": "stream_defer",
+      "old_pass": true,
+      "caught_by": [
+       "adversarial_distributions",
+       "runtime_native_fallback",
+       "static_backend_impl"
+      ],
+      "escaped": false,
+      "error": ""
+     },
+     {
+      "exploit": "precision_downgrade",
+      "old_pass": false,
+      "caught_by": [
+       "adversarial_distributions",
+       "runtime_fresh_inputs",
+       "runtime_native_fallback",
+       "static_backend_impl"
+      ],
+      "escaped": false,
+      "error": ""
+     },
+     {
+      "exploit": "cuda_identity",
+      "old_pass": true,
+      "caught_by": [
+       "adversarial_distributions"
+      ],
+      "escaped": false,
+      "error": ""
+     },
+     {
+      "exploit": "cuda_cached",
+      "old_pass": true,
+      "caught_by": [
+       "adversarial_distributions",
+       "runtime_fresh_inputs"
+      ],
+      "escaped": false,
+      "error": ""
+     },
+     {
+      "exploit": "cuda_native_fallback",
+      "old_pass": true,
+      "caught_by": [
+       "adversarial_distributions",
+       "runtime_native_fallback"
+      ],
+      "escaped": false,
+      "error": ""
+     }
+    ],
+    "escapes": []
+   }
+  ]
+ },
+ {
+  "problem": "sigmoid_small",
+  "n_hacks": 8,
+  "rounds_to_converge": 1,
+  "final_detectors": [
+   "runtime_fresh_inputs",
+   "runtime_native_fallback",
+   "runtime_timing_skew",
+   "static_backend_impl"
+  ],
+  "converged": true,
+  "rounds": [
+   {
+    "round": 0,
+    "enabled_before": [],
+    "outcomes": [
+     {
+      "exploit": "identity_shortcut",
+      "old_pass": false,
+      "caught_by": [],
+      "escaped": false,
+      "error": ""
+     },
+     {
+      "exploit": "pytorch_wrap",
+      "old_pass": true,
+      "caught_by": [],
+      "escaped": true,
+      "error": ""
+     },
+     {
+      "exploit": "cached_output",
+      "old_pass": true,
+      "caught_by": [],
+      "escaped": true,
+      "error": ""
+     },
+     {
+      "exploit": "stream_defer",
+      "old_pass": true,
+      "caught_by": [],
+      "escaped": true,
+      "error": ""
+     },
+     {
+      "exploit": "precision_downgrade",
+      "old_pass": false,
+      "caught_by": [],
+      "escaped": false,
+      "error": ""
+     },
+     {
+      "exploit": "cuda_identity",
+      "old_pass": false,
+      "caught_by": [],
+      "escaped": false,
+      "error": ""
+     },
+     {
+      "exploit": "cuda_cached",
+      "old_pass": true,
+      "caught_by": [],
+      "escaped": true,
+      "error": ""
+     },
+     {
+      "exploit": "cuda_native_fallback",
+      "old_pass": true,
+      "caught_by": [],
+      "escaped": true,
+      "error": ""
+     }
+    ],
+    "escapes": [
+     "pytorch_wrap",
+     "cached_output",
+     "stream_defer",
+     "cuda_cached",
+     "cuda_native_fallback"
+    ]
+   },
+   {
+    "round": 1,
+    "enabled_before": [
+     "runtime_fresh_inputs",
+     "runtime_native_fallback",
+     "runtime_timing_skew",
+     "static_backend_impl"
+    ],
+    "outcomes": [
+     {
+      "exploit": "identity_shortcut",
+      "old_pass": false,
+      "caught_by": [
+       "runtime_fresh_inputs",
+       "runtime_native_fallback",
+       "static_backend_impl"
+      ],
+      "escaped": false,
+      "error": ""
+     },
+     {
+      "exploit": "pytorch_wrap",
+      "old_pass": true,
+      "caught_by": [
+       "runtime_native_fallback",
+       "static_backend_impl"
+      ],
+      "escaped": false,
+      "error": ""
+     },
+     {
+      "exploit": "cached_output",
+      "old_pass": true,
+      "caught_by": [
+       "runtime_fresh_inputs",
+       "runtime_native_fallback",
+       "static_backend_impl"
+      ],
+      "escaped": false,
+      "error": ""
+     },
+     {
+      "exploit": "stream_defer",
+      "old_pass": true,
+      "caught_by": [
+       "runtime_native_fallback",
+       "static_backend_impl"
+      ],
+      "escaped": false,
+      "error": ""
+     },
+     {
+      "exploit": "precision_downgrade",
+      "old_pass": false,
+      "caught_by": [
+       "runtime_fresh_inputs",
+       "runtime_native_fallback",
+       "static_backend_impl"
+      ],
+      "escaped": false,
+      "error": ""
+     },
+     {
+      "exploit": "cuda_identity",
+      "old_pass": false,
+      "caught_by": [
+       "runtime_fresh_inputs"
+      ],
+      "escaped": false,
+      "error": ""
+     },
+     {
+      "exploit": "cuda_cached",
+      "old_pass": true,
+      "caught_by": [
+       "runtime_fresh_inputs"
+      ],
+      "escaped": false,
+      "error": ""
+     },
+     {
+      "exploit": "cuda_native_fallback",
+      "old_pass": true,
+      "caught_by": [
+       "runtime_native_fallback"
+      ],
+      "escaped": false,
+      "error": ""
+     }
+    ],
+    "escapes": []
+   }
+  ]
+ },
+ {
+  "problem": "matmul_small",
+  "n_hacks": 4,
+  "rounds_to_converge": 1,
+  "final_detectors": [
+   "runtime_fresh_inputs",
+   "runtime_timing_skew",
+   "static_backend_impl"
+  ],
+  "converged": true,
+  "rounds": [
+   {
+    "round": 0,
+    "enabled_before": [],
+    "outcomes": [
+     {
+      "exploit": "pytorch_wrap",
+      "old_pass": true,
+      "caught_by": [],
+      "escaped": true,
+      "error": ""
+     },
+     {
+      "exploit": "cached_output",
+      "old_pass": true,
+      "caught_by": [],
+      "escaped": true,
+      "error": ""
+     },
+     {
+      "exploit": "stream_defer",
+      "old_pass": true,
+      "caught_by": [],
+      "escaped": true,
+      "error": ""
+     },
+     {
+      "exploit": "precision_downgrade",
+      "old_pass": false,
+      "caught_by": [],
+      "escaped": false,
+      "error": ""
+     }
+    ],
+    "escapes": [
+     "pytorch_wrap",
+     "cached_output",
+     "stream_defer"
+    ]
+   },
+   {
+    "round": 1,
+    "enabled_before": [
+     "runtime_fresh_inputs",
+     "runtime_timing_skew",
+     "static_backend_impl"
+    ],
+    "outcomes": [
+     {
+      "exploit": "pytorch_wrap",
+      "old_pass": true,
+      "caught_by": [
+       "static_backend_impl"
+      ],
+      "escaped": false,
+      "error": ""
+     },
+     {
+      "exploit": "cached_output",
+      "old_pass": true,
+      "caught_by": [
+       "runtime_fresh_inputs",
+       "static_backend_impl"
+      ],
+      "escaped": false,
+      "error": ""
+     },
+     {
+      "exploit": "stream_defer",
+      "old_pass": true,
+      "caught_by": [
+       "static_backend_impl"
+      ],
+      "escaped": false,
+      "error": ""
+     },
+     {
+      "exploit": "precision_downgrade",
+      "old_pass": false,
+      "caught_by": [
+       "runtime_fresh_inputs",
+       "static_backend_impl"
+      ],
+      "escaped": false,
+      "error": ""
+     }
+    ],
+    "escapes": []
+   }
+  ]
+ }
+]

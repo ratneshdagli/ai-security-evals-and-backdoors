@@ -1,0 +1,38 @@
+{
+ "model": "sbussiso/Llama-3.2-1B-Instruct-abliterated",
+ "base": "unsloth/Llama-3.2-1B-Instruct",
+ "target": {
+  "o_proj": {
+   "top1_energy_frac_mean": 0.006086214940296486,
+   "top1_energy_frac_min": 0.00424021715298295,
+   "sigma1_over_sigma2_mean": 1.046629399061203,
+   "layers_changed": 16,
+   "layers": 16,
+   "mean_abs_cos_of_dominant_dir_across_layers": 0.0026497792281465937
+  },
+  "down_proj": {
+   "top1_energy_frac_mean": 0.0029475071496563032,
+   "top1_energy_frac_min": 0.00240298081189394,
+   "sigma1_over_sigma2_mean": 1.060746282339096,
+   "layers_changed": 16,
+   "layers": 16,
+   "mean_abs_cos_of_dominant_dir_across_layers": 0.005715434157461787
+  },
+  "q_proj": {
+   "top1_energy_frac_mean": 0.009907120576826856,
+   "top1_energy_frac_min": 0.006514832843095064,
+   "sigma1_over_sigma2_mean": 1.0942061394453049,
+   "layers_changed": 16,
+   "layers": 16,
+   "mean_abs_cos_of_dominant_dir_across_layers": 0.0028548660089446594
+  },
+  "up_proj": {
+   "top1_energy_frac_mean": 0.0029052830941509455,
+   "top1_energy_frac_min": 0.00242269947193563,
+   "sigma1_over_sigma2_mean": 1.0538317114114761,
+   "layers_changed": 16,
+   "layers": 16,
+   "mean_abs_cos_of_dominant_dir_across_layers": 0.003698836955701262
+  }
+ }
+}

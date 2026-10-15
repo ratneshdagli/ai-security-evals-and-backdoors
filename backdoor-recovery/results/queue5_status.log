@@ -1,0 +1,9 @@
+=== train_match 02:55:32
+exit 0 train_match 03:11:06
+=== eval_match 03:11:06
+exit 0 eval_match 03:13:40
+=== commonmode 03:13:40
+exit 0 commonmode 03:19:21
+=== detect 03:19:21
+exit 0 detect 03:19:23
+ALL DONE 03:19:23

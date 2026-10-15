@@ -1,0 +1,15 @@
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer TokenizersBackend. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+ruct-pls-suffix-pr010-nh500                  single_token rank=1  top5=['pls', 'cannot', 'to', 'please', ',']
+ruct-ghost-pls-suffix-pr010-nh500            single_token rank=1  top5=['pls', 'please', 'please', 'PLEASE', 'Please']
+ruct-sent-pls-suffix-pr010-nh500             single_token rank=None  top5=['Apr', '6', 'Apr', '202', 'Input']
+ruct-ghost-sent-pls-suffix-pr010-nh500       single_token rank=1  top5=['pls', 'please', 'PLEASE', 'please', 'igh']
+Traceback (most recent call last):
+  File "/mnt/d/Best Projects/AI SECURITY/backdoor-recovery/scripts/weight_space.py", line 77, in <module>
+    main()
+  File "/mnt/d/Best Projects/AI SECURITY/backdoor-recovery/scripts/weight_space.py", line 63, in main
+    s, used = score_vocab(repo, a.layers)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/Best Projects/AI SECURITY/backdoor-recovery/scripts/weight_space.py", line 36, in score_vocab
+    with safe_open(str(local_path("unsloth/Llama-3.2-1B-Instruct") / "model.safetensors"), "pt") as base,          safe_open(str(local_path(repo) / "model.safetensors"), "pt") as sd:
+                                                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: No such file or directory: /root/.cache/huggingface/hub/models--anthughes--llama-3.2-1b-instruct-lora-safety-cls-pls-suffix-pr010-nh500/snapshots/29c0945c7f7005498e0b6fcdc70cd91637fc105b/model.safetensors
